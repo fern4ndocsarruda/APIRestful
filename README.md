@@ -1,8 +1,8 @@
 # SisEstoque
-Sistema de Cadastro de Produtos no Estoque de uma Loja de Instrumentos
+Sistema de cadastro de produtos no estoque de uma loja de instrumentos
 # Loja de Instrumentos - Backend
 
-Bem-vindo ao repositório do projeto backend para uma loja de instrumentos desenvolvido como parte do curso de Backend do SENAI. Este projeto visa criar uma aplicação robusta e eficiente para gerenciar os dados de uma loja de instrumentos musicais.
+Bem-vindo ao repositório do projeto backend para o estoque de uma loja de instrumentos desenvolvido como parte do curso de Backend do SENAI. Este projeto visa criar uma aplicação robusta e eficiente para gerenciar os dados do etoque de uma loja de instrumentos musicais.
 
 ## Equipe
 
@@ -15,13 +15,6 @@ O projeto foi desenvolvido pelos seguintes alunos do SENAI:
 ## Funcionalidades
 
 - Gerenciamento de produtos: adição, remoção, atualização e listagem de produtos disponíveis na loja.
-- Gerenciamento de clientes: cadastro, atualização e listagem de clientes da loja.
-- Gerenciamento de pedidos: criação, atualização, listagem e cancelamento de pedidos realizados pelos clientes.
-- Gestão de funcionários: cadastro, atualização e listagem dos funcionários da loja.
-- Controle de vendas: registro e acompanhamento das vendas realizadas pela loja, incluindo informações sobre os produtos vendidos e clientes envolvidos.
-- Controle de estoque: monitoramento dos níveis de estoque dos produtos.
-
-
 
 ## Tecnologias Utilizadas
 
@@ -41,8 +34,6 @@ O projeto foi desenvolvido pelos seguintes alunos do SENAI:
 - **Documentação Swagger**: Documentação interativa do aplicativo gerada com Swagger, permitindo visualizar e testar os endpoints da API.
 
 - **Projeto Spring Boot**: O código-fonte do aplicativo backend, desenvolvido utilizando o framework Spring Boot.
-
-
 
 ## Como Executar
 
