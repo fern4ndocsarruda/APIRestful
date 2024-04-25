@@ -9,18 +9,20 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
-@Entity
+@Entity //Esta anotação indica que a classe Email é uma entidade JPA, ou seja, ela está mapeada para uma tabela em um banco de dados relacional.
 public class Estoque {
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Id //Este trecho de código indica que o campo marcado com @Id será a chave primária da entidade e seu valor será gerado automaticamente pelo banco de dados... 
+	@GeneratedValue(strategy=GenerationType.IDENTITY) ////...usando uma estratégia de identidade, como uma coluna autoincrementável.
 	private Long id;
 	private String nome;
 	private String email;
 	private String senha;
 	
-	@OneToMany(mappedBy="estoque")
+	//Aqui é definido o relacionamento de produto com estoque. Cada estoque poderá ter uma lista de produtos e cada produto poderá pertencer a apenas um estoque.
+	@OneToMany(mappedBy="estoque") //Este trecho de código está definindo que uma entidade de Estoque pode estar associada a vários produtos, e essa associação é mapeada pela propriedade "estoque" na entidade Produto.
 	private List<Produto> produto;
 
+	//Método Construtor
 	public Estoque() {
 		
     }
@@ -34,6 +36,7 @@ public class Estoque {
 		this.produto = produto;
 	}
 
+	//Getters and Setters
 	public Long getId() {
 		return id;
 	}
