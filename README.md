@@ -10,10 +10,10 @@ O objetivo principal deste projeto é oferecer uma solução eficiente e segura 
 ## 🎸 Equipe
 
 O projeto foi desenvolvido pelos seguintes alunos do SENAI:
-- Alberto Rezende 
-- Amanda Porto
-- Fernando Arruda
-- Thiago Netto
+- Alberto Rezende (Apresentação)
+- Amanda Porto (Documentação, Slides e Apresentação)
+- Fernando Arruda (Software, Banco de Dados e Apresentação)
+- Thiago Netto (Documentação Swagger, Modelo Lógico, Modelo Conceitual e Diagrama de Classes).
 
 ## 🥁 Funcionalidades
 
